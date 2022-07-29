@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Cronos Sites</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="sub-header">
+        <nav>
+          <a href="index.html"><img src="images/logo.png"></a>
+          <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onClick = "hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="service.html">SERVICES</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+
+
+<section class="about-us">
+  <div class="row">
+      <div class="about-col">
+        <h1>We code for you, but who are we?</h1>
+        <p>We aren't actually a huge team, neither are we a small group of coders. In order to keep sure all our websites are top quality and high-end, we only have one coder. This coder still promises top quality and support, which is shown in our reviews! We do however ask for some patience, as the website creation will take around the same amount of time as other freelancers, if not less. Look around the website, as well as our Fiverr page and make a well-adviced choice. We thank you for your shown kindness and appreciate your support. </p>
+        <a href="contact.html" class="intresse-btn green-btn">CONTACT US</a>
+      </div>
+      <div class="about-col"></div>
+      <img id="about-col"src="images/about.jpg">
+  </div>
+
+</section>
+
+
+<section class="footer">
+
+  <h4>About Us</h4>
+  <p>We are a new Website Building buissnes with one coder in charge of all web design and other services. <br>We therefore ask for patience and apprieciate your continued support.</p>
+  <div class="icons">
+    <a href="https://www.facebook.com/Cronos-Sites-108404121961781"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://twitter.com/cronossites"><i class="fa fa-twitter"></i></a>
+    <a href="https://www.instagram.com/cronossites/"><i class="fa fa-instagram"></i></a>
+  </div>
+</section>
+
+
+
+
+<!--JavaScript for Toggle Menu-->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+
+</script>
+  </body>
+</html>

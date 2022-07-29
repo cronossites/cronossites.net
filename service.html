@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Cronos Sites</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="sub-header">
+        <nav>
+          <a href="index.html"><img src="images/logo.png"></a>
+          <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onClick = "hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="service.html">SERVICES</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Services</h1>
+
+    </section>
+
+    <section class="services">
+      <h1>Services We Offer</h1>
+      <p>At cronossites.net we have multiple services that you can purchase.</p>
+
+      <div class="row">
+        <div class ="service-col">
+          <h3>Website Creation</h3>
+          <p>We create high-end, modern, simplistic and sleek websites that please the eye. We will gladly make multiple revisions in order to please the client, and we have shown results for previous customers.</p>
+        </div>
+        <div class ="service-col">
+          <h3>Logo Design</h3>
+          <p>We create logos for websites, apps and other services the client would like to use the logo for. We design the logos based on the clients ideas and needs, and we gladly make revisions.</p>
+        </div>
+        <div class ="service-col">
+          <h3>Website Cloning</h3>
+          <p>If you want to learn coding by seeing the code of other websites, this is service is for you. We copy a website of choices entire code, which you can use for educational purposes. By purchasing this service you agree that there may be errors and bugs in the cloned source code, as well as you not using the cloned website as a diversion of the original website or doing any similar sinister acts.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="examples">
+    <h1>Screenshots</h1>
+    <p>We have created multiple sites which you can assess.</p>
+
+    <div class="row">
+        <div class="examples-col">
+            <img src="images/site-1.png">
+            <h3>Sleek Watch Shop</h3>
+            <p>This is a beautiful sleek watch shop design.</p>
+        </div>
+        <div class="examples-col">
+            <img src="images/site-2.png">
+            <h3>Generic Store</h3>
+            <p>This is a design that will instantly make any store and buisness  more professional</p>
+        </div>
+        <div class="examples-col">
+            <img src="images/site-3.png">
+            <h3>Swedish Farmhouse Website</h3>
+            <p>This website shows our capabilities in the Swedish language.</p>
+        </div>
+    </div>
+    </section>
+
+
+
+<section class="footer">
+
+  <h4>About Us</h4>
+  <p>We are a new Website Building buissnes with one coder in charge of all web design and other services. <br>We therefore ask for patience and apprieciate your continued support.</p>
+  <div class="icons">
+    <a href="https://www.facebook.com/Cronos-Sites-108404121961781"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://twitter.com/cronossites"><i class="fa fa-twitter"></i></a>
+    <a href="https://www.instagram.com/cronossites/"><i class="fa fa-instagram"></i></a>
+  </div>
+</section>
+
+
+
+
+<!--JavaScript for Toggle Menu-->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+
+</script>
+  </body>
+</html>
